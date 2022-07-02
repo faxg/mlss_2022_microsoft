@@ -4,7 +4,7 @@ module.exports = {
     defaultTitle: `MLSS 2022`,
     siteTitleShort: `MLSS 2022`,
     siteDescription: `Microsoft Resources for MLSS 2022 at ETH Zurich`,
-    siteUrl: `https://rocketdocs.netlify.app`,
+    siteUrl: `https://faxg.github.io/mlss_2022_microsoft/`,
     siteAuthor: `@faxg`,
     siteImage: `/banner.png`,
     siteLanguage: `en`,

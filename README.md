@@ -8,3 +8,5 @@ This repository contains the GitHub pages docs for the MLSS 2022 at ETH Zurich, 
 
 ### More info
 https://www.bumblekite.co/summer-school
+
+Published site: https://aka.ms/mlss2022 

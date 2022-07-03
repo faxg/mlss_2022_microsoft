@@ -9,7 +9,7 @@ module.exports = {
     siteImage: `/banner.png`,
     siteLanguage: `en`,
     themeColor: `#8257E6`,
-    basePath: `/`,
+    basePath: `/mlss_2022_microsoft`,
     pathPrefix: `/mlss_2022_microsoft`,
   },
   plugins: [

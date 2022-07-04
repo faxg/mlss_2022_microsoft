@@ -4,31 +4,38 @@
   link: '/'
 - label: 'Getting Started'
   link: '/getting-started'
-- label: 'Cloud Skills Challenge: Get Ready for MLSS'
-  link: /faq
 
-- label: Azure Machine Learing
-  items:
-    - label: 'Running python notebooks'
-      link: '/usage/creating-docs'
-    - label: 'Day 2: Clinical Statistics'
-      link: '/usage/navigation'
-    - label: 'Day 3: Time Series'
-      link: '/usage/shadowing'
-    - label: 'Day 4: Climate'
-      link: '/usage/using-yaml-files'
-    - label: 'Day 5: Climate'
-      link: '/usage/using-yaml-files'
-    - label: 'Day 6: -omics'
-      link: '/usage/using-yaml-files'
-    - label: 'Day 7: Presentation'
-      link: '/usage/using-yaml-files'
+- label: 'Timeline'
+  link: /timeline
 
-- label: Get Microsoft Certified
+- label: 'Contacts'
+  link: /contacts
+
+
+- label: Skill-up on Azure Cloud
   items:
-    - label: 'Certifications for Students and Teachers'
-      link: /faq
-    - label: 'Certifications for Professionals'
-      link: /faq
-    - label: 'Get your MLSS 2022 Digital Badge'
-      link: /faq
+    - label: "Join our Cloud Skills challenge"
+      link: /skillchallenge
+    - label: "Microsoft Learning Paths and Certifications"
+      link: /learningpaths
+
+
+- label: Using Azure Machine Learing
+  items:
+    #- label: 'Running python notebooks'
+    #  link: /usage/aml_run_notebooks
+
+    - label: 'Clinical Statistics'
+      link: '/usage/aml_statistics'
+
+    #- label: 'Day 3: Time Series'
+    #  link: '/usage/aml_time_series'
+    # - label: 'Day 4: Climate'
+    #   link: '/usage/aml_climate'
+    # - label: 'Day 5: Imaging'
+    #   link: 'usage/aml_imaging'
+    # - label: 'Day 6: omics'
+    #   link: '/usage/aml_omics'
+    # - label: 'Day 7: Presentation'
+    #   link: '/usage/aml_presentation'
+

@@ -1,11 +1,10 @@
 {
-  "name": "gatsby-starter-rocketdocs",
+  "name": "mlss_2022_microsoft",
   "private": true,
   "version": "1.0.0",
-  "description": "Out of the box Gatsby Starter for creating documentation websites easily and quickly. With support for MDX, code highlight, Analytics, SEO and more",
-  "author": "João Pedro Schmitz <hey@joaopedro.dev> (@jpedroschmitz)",
+  "description": "Microsoft resources for Bumblekite MLSS 2022 at ETH Zurich, by Fourgroup.co",
+  "author": "@faxg",
   "license": "MIT",
-  "starter-name": "gatsby-starter-rocketdocs",
   "dependencies": {
     "@rocketseat/gatsby-theme-docs": "^3.1.0",
     "gatsby": "^4.2.0",
@@ -24,7 +23,7 @@
   },
   "keywords": [
     "gatsby",
-    "gatsby-starter"
+    "github pages"
   ],
   "scripts": {
     "build": "gatsby build",

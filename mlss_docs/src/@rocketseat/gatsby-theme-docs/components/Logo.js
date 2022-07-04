@@ -5,7 +5,11 @@ import { withPrefix } from "gatsby";
 import logo from "/static/banner.png";
 
 const Logo = () => (
-  <img src={withPrefix(logo)} alt="Logo" style={{ width: 90 }} />
+  <img
+    src={withPrefix("/static/banner.png")}
+    alt="Logo"
+    style={{ width: 90 }}
+  />
 );
 
 export default Logo;

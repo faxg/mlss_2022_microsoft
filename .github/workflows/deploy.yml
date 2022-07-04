@@ -28,6 +28,6 @@ jobs:
     - name: Change dir
       run: cd mlss_docs
     - name: Run NPM install
-      run: npm install
+      run: cd mlss_docs && npm install
     - name: Run NPM deploy
       run: npm run deploy

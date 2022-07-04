@@ -5,7 +5,7 @@
 - label: 'Getting Started'
   link: '/getting-started'
 
-- label: 'Timeline'
+- label: 'Event Timeline'
   link: /timeline
 
 - label: 'Contacts'
@@ -14,28 +14,29 @@
 
 - label: Skill-up on Azure Cloud
   items:
-    - label: "Join our Cloud Skills challenge"
+    - label: "Join our Cloud Skills Challenge"
       link: /skillchallenge
-    - label: "Microsoft Learning Paths and Certifications"
+    - label: "Microsoft Learning Paths"
       link: /learningpaths
+
 
 
 - label: Using Azure Machine Learing
   items:
-    #- label: 'Running python notebooks'
-    #  link: /usage/aml_run_notebooks
+    - label: "Settings up your workspace"
+      link: '/usage/aml_setup'
 
+    - label: 'Running python notebooks'
+      link: '/usage/aml_run_notebooks'
     - label: 'Clinical Statistics'
       link: '/usage/aml_statistics'
-
-    #- label: 'Day 3: Time Series'
-    #  link: '/usage/aml_time_series'
-    # - label: 'Day 4: Climate'
-    #   link: '/usage/aml_climate'
-    # - label: 'Day 5: Imaging'
-    #   link: 'usage/aml_imaging'
-    # - label: 'Day 6: omics'
-    #   link: '/usage/aml_omics'
-    # - label: 'Day 7: Presentation'
-    #   link: '/usage/aml_presentation'
-
+    - label: 'Day 3: Time Series'
+      link: '/usage/aml_time_series'
+    - label: 'Day 4: Climate'
+      link: '/usage/aml_climate'
+    - label: 'Day 5: Imaging'
+      link: 'usage/aml_imaging'
+    - label: 'Day 6: omics'
+      link: '/usage/aml_omics'
+    - label: 'Day 7: Presentation'
+      link: '/usage/aml_presentation'

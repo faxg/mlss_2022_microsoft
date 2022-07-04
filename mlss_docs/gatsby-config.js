@@ -14,13 +14,16 @@ module.exports = {
   },
   plugins: [
     {
+      resolve: "gatsby-source-microsoft-learn-catalog",
+    },
+    {
       resolve: `@rocketseat/gatsby-theme-docs`,
       options: {
         configPath: `src/config`,
         docsPath: `src/docs`,
         yamlFilesPath: `src/yamlFiles`,
         repositoryUrl: `https://github.com/faxg/mlss_2022_microsoft`,
-        baseDir: `examples/gatsby-theme-docs`,
+        baseDir: `mlss_docs`,
       },
     },
     {

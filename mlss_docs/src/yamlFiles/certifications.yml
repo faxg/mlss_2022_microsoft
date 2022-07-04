@@ -1,0 +1,7 @@
+- name: 'AI-900 Microsoft Certified: Azure AI Fundamentals'
+  url: https://docs.microsoft.com/en-us/learn/certifications/azure-ai-fundamentals/
+  exam_url: https://docs.microsoft.com/en-us/learn/certifications/exams/ai-900
+
+- name: 'AZ-900 Microsoft Certified: Azure Fundamentals'
+  url: https://docs.microsoft.com/en-us/learn/certifications/azure-fundamentals/
+  exam_url: https://docs.microsoft.com/en-us/learn/certifications/exams/az-900

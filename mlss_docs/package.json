@@ -28,7 +28,7 @@
   ],
   "scripts": {
     "build": "gatsby build",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
+    "deploy": "gatsby build --prefix-paths && npx gh-pages -d public",
     "start": "gatsby develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean"

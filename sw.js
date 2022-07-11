@@ -27,7 +27,7 @@ workbox.core.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-b08c8cc857d829b0c918.js"
+    "url": "webpack-runtime-bb9d144135e7ee183129.js"
   },
   {
     "url": "framework-16510aacface55df5ef3.js"
@@ -36,18 +36,18 @@ self.__precacheManifest = [
     "url": "f0e45107-66c1248b51a4d11af1cd.js"
   },
   {
-    "url": "app-e0f3624a4d31f2f07b17.js"
+    "url": "app-34b102196dc3aaacd89a.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "0c26160cb92b7122586830b8ceb1b119"
+    "revision": "aaa09724c6fd25adaa2697c615071864"
   },
   {
     "url": "polyfill-20fdbfe60b6ae541794a.js"
   },
   {
     "url": "manifest.webmanifest",
-    "revision": "4d170a18c6940d454575ba0caa358ea7"
+    "revision": "ca561ce4376287bcf2225a22140ebe81"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
@@ -152,12 +152,12 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   lastNavigationRequest = event.request.url
 
   let { pathname } = new URL(event.request.url)
-  pathname = pathname.replace(new RegExp(`^`), ``)
+  pathname = pathname.replace(new RegExp(`^/mlss_2022_microsoft`), ``)
 
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/app-e0f3624a4d31f2f07b17.js`))) {
+  if (!resources || !(await caches.match(`/mlss_2022_microsoft/app-34b102196dc3aaacd89a.js`))) {
     return await fetch(event.request)
   }
 
@@ -170,7 +170,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
     }
   }
 
-  const offlineShell = `/offline-plugin-app-shell-fallback/index.html`
+  const offlineShell = `/mlss_2022_microsoft/offline-plugin-app-shell-fallback/index.html`
   const offlineShellWithKey = workbox.precaching.getCacheKeyForURL(offlineShell)
   return await caches.match(offlineShellWithKey)
 })

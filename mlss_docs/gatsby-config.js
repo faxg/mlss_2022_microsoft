@@ -1,4 +1,6 @@
 module.exports = {
+  pathPrefix: `mlss_2022_microsoft`,
+
   siteMetadata: {
     siteTitle: `MLSS 2022 - Machine learning summer school in healthcare and biosciences w. Microsoft`,
     defaultTitle: `MLSS 2022`,
@@ -10,7 +12,6 @@ module.exports = {
     siteLanguage: `en`,
     themeColor: `#6887c4`,
     basePath: `/`,
-    pathPrefix: `mlss_2022_microsoft`,
   },
   plugins: [
     {

@@ -5,14 +5,12 @@
 - label: 'Getting Started'
   link: '/getting-started'
 
-- label: 'Event Timeline'
-  link: /timeline
 
-- label: 'Contacts'
+- label: 'Contact us'
   link: /contacts
 
 
-- label: Skill-up on Azure Cloud
+- label: Get Ready with Azure Cloud
   items:
     - label: "Join our Cloud Skills Challenge"
       link: /skillchallenge
@@ -21,22 +19,34 @@
 
 
 
-- label: Using Azure Machine Learing
+- label: Using Azure Machine Learning
   items:
     - label: "Settings up your workspace"
       link: '/usage/aml_setup'
 
     - label: 'Running python notebooks'
       link: '/usage/aml_run_notebooks'
-    - label: 'Clinical Statistics'
-      link: '/usage/aml_statistics'
-    - label: 'Day 3: Time Series'
-      link: '/usage/aml_time_series'
-    - label: 'Day 4: Climate'
-      link: '/usage/aml_climate'
-    - label: 'Day 5: Imaging'
-      link: 'usage/aml_imaging'
-    - label: 'Day 6: omics'
-      link: '/usage/aml_omics'
-    - label: 'Day 7: Presentation'
-      link: '/usage/aml_presentation'
+
+- label: Additional resources
+  items:
+    - label: "AI Business School for Healthcare"
+      link: '/ai_business_school'
+    - label: "Claim your badges"
+      link: '/badges'
+    - label: "Prepare for a Microsoft certification"
+      link: '/certifications'
+    - label: "Join our student programs"
+      link: '/studentprograms'
+
+    # - label: 'Day 2: Clinical Statistics'
+    #   link: '/usage/aml_statistics'
+    # - label: 'Day 3: Time Series'
+    #   link: '/usage/aml_time_series'
+    # - label: 'Day 4: Climate'
+    #   link: '/usage/aml_climate'
+    # - label: 'Day 5: Imaging'
+    #   link: 'usage/aml_imaging'
+    # - label: 'Day 6: omics'
+    #   link: '/usage/aml_omics'
+    # - label: 'Day 7: Presentation'
+    #   link: '/usage/aml_presentation'

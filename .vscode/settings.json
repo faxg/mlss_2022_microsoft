@@ -1,5 +1,8 @@
 {
     "yaml.schemas": {
         "https://json.schemastore.org/github-workflow.json": "file:///c%3A/Users/flgeorg/repositories/mlss_2022_microsoft/.github/workflows/deploy.yml"
+    },
+    "options": {
+        "cwd": "${workspaceFolder}/mlss_docs"
     }
 }

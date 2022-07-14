@@ -1,5 +1,6 @@
 module.exports = {
   pathPrefix: `mlss_2022_microsoft`,
+  trailingSlash: "always",
 
   siteMetadata: {
     siteTitle: `MLSS 2022 - Machine learning summer school in healthcare and biosciences w. Microsoft`,
@@ -25,6 +26,18 @@ module.exports = {
         yamlFilesPath: `src/yamlFiles`,
         repositoryUrl: `https://github.com/faxg/mlss_2022_microsoft`,
         baseDir: `mlss_docs`,
+        // see https://github.com/jpedroschmitz/rocketdocs/tree/main/@rocketseat/gatsby-theme-docs-core
+        withMdx: false,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-mdx`,
+      options: {
+        gatsbyRemarkPlugins: [
+          {
+            resolve: `gatsby-remark-embedder`,
+          },
+        ],
       },
     },
     {
@@ -45,11 +58,10 @@ module.exports = {
     //     trackingId: `YOUR_ANALYTICS_ID`,
     //   },
     // },
-    `gatsby-plugin-remove-trailing-slashes`,
     {
       resolve: `gatsby-plugin-canonical-urls`,
       options: {
-        siteUrl: `https://rocketdocs.netlify.app`,
+        siteUrl: `https://github.com/faxg/mlss_2022_microsoft`,
       },
     },
     `gatsby-plugin-offline`,

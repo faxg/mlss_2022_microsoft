@@ -12,7 +12,7 @@ module.exports = {
     siteImage: `/banner.png`,
     siteLanguage: `en`,
     themeColor: `#6887c4`,
-    basePath: `/mlss_2022_microsoft/`,
+    basePath: `/`,
   },
   plugins: [
     {

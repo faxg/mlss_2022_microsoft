@@ -27,6 +27,9 @@
     - label: 'Running python notebooks'
       link: '/usage/aml_run_notebooks'
 
+- label: "Lecture information"
+  link: '/usage/instructions_labs'
+
 - label: Additional resources
   items:
     - label: "AI Business School for Healthcare"

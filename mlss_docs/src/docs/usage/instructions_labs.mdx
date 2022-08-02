@@ -1,0 +1,97 @@
+---
+title: Setup instructions for different labs
+description: How to setup Azure ML for the labs, access the data etc.
+---
+
+## Lecture: Alexander Marx
+
+** Lecturer**: [Alexander Marx](https://www.linkedin.com/in/alexander-marx-279013188/), ETH Zurich AI
+
+### Description:
+
+I appended the libraries that are needed from my side in a .txt file.
+There is also a small Jupiter notebook attached which they can run to check if everything works.
+
+- [requirements.txt](/assets/alexander/requirements.txt)
+- [check-installation.ipynb](/assets/alexander/check-installation.ipynb)
+
+---
+
+## Lecture: Medical Image processing
+
+**Lecturer**: [Ece Özkan Elsen](https://www.linkedin.com/in/ece-%C3%B6zkan-elsen-452716180/), ETH Zurich
+
+### Description:
+
+I will be using EchoNet-Dynamic dataset:
+https://echonet.github.io/dynamic/
+
+Every participant needs to have/sign an agreement as well to access the data. Also, it would be great to have the data somewhere centralized so that they can access it and run the jupyter notebook using the dataset/submit jobs for gpu training. I prepared an initial Jupyter notebook which runs a short code with everything they need (data and libraries).
+
+- [Libraries](/assets/ece/libraries_list_heartEcho_Ece.txt)
+- [Getting ready Notebook](/assets/ece/GettingReady.ipynb)
+
+---
+
+## Lecture: Genomic Data
+
+**Lecturer**: [Kathy Chen](https://www.linkedin.com/in/kathy-chen-5a33aa92/), Princeton
+
+### Description:
+
+I think more or less if I can recommend students create a standalone anaconda environment, e.g.
+
+```
+conda create --name selene-py38 python=3.8
+conda activate selene-py38
+pip install selene-sdk
+conda install -c anaconda docopt
+```
+
+---
+
+## Lecture: Time Series and Chest X-ray images
+
+**Lecturer**: [Farah Shamout](https://www.linkedin.com/in/farahshamout/), NYU Abu Dhabi
+
+### Description:
+
+My multimodal learning tutorial will be based on the publicly available MIMIC-IV and MIMIC-CXR datasets.
+This requires the students to first complete IRB training in order to be allowed access.
+https://physionet.org/content/mimiciv/2.0/
+https://physionet.org/content/mimic-cxr/2.0.0/
+
+Would it be possible to set up the datasets on Azure? I would prefer if the datasets were preprocessed and put into one centralised location so that the students can focus on model training during the tutorial. We would need to control access such that students can only work with the dataset once they complete all required forms by the data provider. I’m aiming for a Kaggle style experience where they’re asked to submit the test set predictions at the end of the day. Hence they’ll need to run jupyter notebooks and be able to submit jobs for gpu training.
+
+I have the scripts for preprocessing the raw data.
+
+The benchmark is MedFuse: https://arxiv.org/abs/2207.07027
+https://github.com/nyuad-cai/MedFuse
+
+Otherwise, instructions for installing the environment for my tutorial are listed on the repo: https://github.com/nyuad-cai/MedFuse#Environment-setup
+
+---
+
+## Lecture: Jonas Dorn
+
+**Lecturer**: [Jonas Dorn](https://www.linkedin.com/in/jonas-dorn-6b371933/), Roche
+
+### Description:
+
+TBD
+
+---
+
+## Lecture: Valeria De Luca
+
+**Lecturer**: [Valeria De Luca](https://www.linkedin.com/in/valeria-de-luca-83b49673/), Novartis
+
+### Description:
+
+- Dataset: https://zenodo.org/record/4266157#.YuagXexBzc9
+  I have one additional table to provide (TBC), which is not included there, nor posted online. How should I share that?
+
+- Setup: I will not provide a template notebook, but I have a list of scientific questions to address, which will be split among teams. Depending on the questions, there might be different libraries that a team would need / like to use
+- Requirements: not much, the dataset is quite small and I do not expect large computational needs. Are there limitations in terms of languages? What libraries will be already available? Or can the participants set up their own virtual environment and install what they would like to use?
+- Additional data: some additional data from the public domain could be of interest for the team (not necessary but interesting), e.g. weather data.
+  can they eventually upload data during the tutorial? Or should I provide these upfront as well?

@@ -1,0 +1,26 @@
+Requirements:
+
+- python 3
+- jupyter notebook
+- graphviz (https://graphviz.org/download/) # needed to plot graphs (do not install with pip)
+- R 
+- R packages (see 'https://github.com/FenTechSolutions/CausalDiscoveryToolbox' under 'Additional: R and R libraries'; when running the installation, make sure that at least 'pcalg' and its dependencies could be installed properly)
+
+- python packages:
+pandas
+ipywidgets
+sklearn
+numpy
+matplotlib
+io
+pydot
+- install the following two python packages after having installed the R packages and graphviz (recommended)
+networkx
+cdt (installation see https://github.com/FenTechSolutions/CausalDiscoveryToolbox)
+causal-learn
+
+After you are set up, please run the 'check-installation.ipynb' notebook as a minimal check to see if the core packages are installed properly.
+
+
+
+

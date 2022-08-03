@@ -14,7 +14,7 @@
   items:
     - label: "Join our Cloud Skills Challenge"
       link: /skillchallenge
-    - label: "Microsoft Learning Paths"
+    - label: "Microsoft Learning"
       link: /learningpaths
 
 

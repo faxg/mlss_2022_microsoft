@@ -162,6 +162,17 @@ conda env create -f environment.yml
 conda activate medfuse
 ```
 
+Now, on Azure ML you need to create a Jupyter Kernel in the compute instance, so you can run notebooks using that environment.
+
+```bash
+# make sure you have activated the conda environment first, e.g. conda activate medfuse
+conda install pip
+conda install ipykernel
+python -m ipykernel install --user --name MeduFuse --display-name "MeduFuse"
+```
+
+Now the kernel should show up in the dropdown on the top right corner of the notebook.
+
 ---
 
 ## Thursday Lecture: Genomic Data
@@ -176,7 +187,25 @@ I think more or less if I can recommend students create a standalone anaconda en
 conda create --name selene-py38 python=3.8
 conda activate selene-py38
 pip install selene-sdk
+
 conda install -c anaconda docopt
 ```
 
+**Note**: if you get "No permission" errors before the last command, you may need to manually sudo-remove the mentioned folders, and try again.
+
+Now, on Azure ML you need to create a Jupyter Kernel in the compute instance, so you can run notebooks using that environment.
+
+```bash
+# make sure you have activated the conda environment first, e.g. conda activate selene-py38
+conda install pip
+conda install ipykernel
+python -m ipykernel install --user --name Selene-py38 --display-name "Selene-py38"
+```
+
+Now the kernel should show up in the dropdown on the top right corner of the notebook.
+
 ---
+
+```
+
+```
